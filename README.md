@@ -1,5 +1,7 @@
 # News Text Classification System
 
+🔗 **Live Demo:** https://news-text-classification123.streamlit.app
+
 A multi-class Natural Language Processing (NLP) project that classifies BBC news articles into five categories:
 
 - Business
@@ -49,11 +51,15 @@ Best configuration:
 - SVM C: 0.5
 - TF-IDF ngram range: (1, 2)
 - TF-IDF min_df: 1
+- Best 5-fold CV Macro F1: **97.67%**
 
-Cross-validation results:
+### Final Test Results
 
-- Mean CV Accuracy: 97.51%
-- Mean CV Macro F1: 97.49%
+The final model was evaluated once on the untouched test set.
+
+- Test Accuracy: **98.75%**
+- Test Macro F1: **98.68%**
+- Correct Predictions: **316 / 320**
 
 ### Final Test Results
 
